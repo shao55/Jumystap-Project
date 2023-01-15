@@ -121,7 +121,7 @@ header {
 	display: flex;
 	width: 100%;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 86px;
 }
 .steps_head_description {
@@ -187,4 +187,97 @@ input::placeholder {
 .job_button {
 	margin-left: 32px;
 }
-/* секция upload */
+/* секция cv */
+.cv {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.cv_image {
+	position: relative;
+}
+.cv_img {
+	border-radius: 24px;
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+.cv_img_light {
+	position: absolute;
+	top: 207px;
+    left: 22px;
+}
+.cv_img_star {
+	position: absolute;
+	top: 92px;
+    left: 214px;
+}
+.cv_text {
+	/* display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center; */
+	margin-left: 128px;
+}
+.cv_button {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.node_cv {
+	margin-right: 8px;
+}
+/* footer */
+footer {
+	background: #FFFFFF;
+	border-radius: 32px 32px 0px 0px;
+}
+.footer_text {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.footer_text_mrgn {
+	margin-left: 40px;
+}
+.footer_links {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+.footer_social_twitter {
+	margin-left: 28px;
+}
+.footer_social_instagram {
+	margin-left: 16px;
+}
+.footer_description_text {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: center;
+	opacity: 0.5;
+}
+.footer_up {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 42px;
+}
+.footer_down {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 52px;
+	padding-bottom: 42px;
+}
+.footer_down_text {
+	color: #081E34;
+
+}
+.footer_description_text_links {
+	text-decoration: underline;
+}
