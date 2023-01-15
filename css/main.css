@@ -1,6 +1,7 @@
 /* Глобальные стили и обнуление */
 body {
 	margin: 0;
+	background: #F1F1F1;
 }
 .container {
 	margin: 0 5%;
@@ -25,9 +26,8 @@ p {
 }
 
 /* Основной контент */
-
+/* секция header */
 header {
-	/* display: flex; */
 	background-color: #F1F1F1;
 }
 .header_nav {
@@ -99,3 +99,92 @@ header {
 	top: 213px;
     left: 438px;
 }
+/* секция steps */
+.steps {
+	background: #E1DEE7;
+	border-radius: 32px;
+}
+.main_steps {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 103px;
+	padding-bottom: 103px;
+
+}
+.main_steps_head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main_steps_num {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 86px;
+}
+.steps_head_description {
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.steps_head_title {
+	margin-top: 12px;
+}
+.steps_title {
+	margin-top: 48px;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.steps_description {
+	margin-top: 24px;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+/* секция find job */
+.input_wrap	{
+	position: relative;
+}
+.find_job {
+	padding: 100px 0px;
+}
+.find_job_input {
+	width: 619px;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #E1DEE7;
+	border-radius: 12px;
+	margin-top: 32px;
+}
+.input_img {
+	position: absolute;
+	top: 46px;
+	left: 13px;
+}
+input::placeholder {
+	padding-left: 49px;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+	opacity: 0.2;
+}
+.job_button {
+	margin-left: 32px;
+}
+/* секция upload */
