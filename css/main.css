@@ -110,7 +110,6 @@ header {
 	align-items: center;
 	padding-top: 103px;
 	padding-bottom: 103px;
-
 }
 .main_steps_head {
 	display: flex;
@@ -283,7 +282,45 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-	body {
-	  background-color: blue;
+	.header_content {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.header_content_text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.header_text {
+		text-align: center;
+	}
+	.main_steps_num {
+		display: flex;
+		flex-direction: column;
+	}
+	.first_step {
+		width: 400px;
+	}
+	.second_step {
+		margin-top: 40px;
+		width: 400px;
+	}
+	.third_step {
+		margin-top: 40px;
+		width: 400px;
+	}
+	.cv {
+		display: flex;
+		flex-direction: column;
+	}
+	.get_start {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.input_wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
   }
