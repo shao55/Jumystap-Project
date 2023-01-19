@@ -281,3 +281,9 @@ footer {
 .footer_description_text_links {
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 1200px) {
+	body {
+	  background-color: blue;
+	}
+  }
