@@ -401,16 +401,13 @@ footer {
     	left: 350px;
 	}
 }
+
 @media screen and (max-width: 510px) {
 	.fire_img {
     	left: 330px;
 	}
 }
-@media screen and (max-width: 480px) {
-	.fire_img {
-    	left: 300px;
-	}
-}
+
 @media screen and (max-width: 480px) {
 	.header_content {
 		padding-top: 44px;
