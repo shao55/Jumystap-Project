@@ -323,4 +323,186 @@ footer {
 		flex-direction: column;
 		align-items: center;
 	}
+	.job_button {
+		margin-top: 32px;
+	}
+	.cv_text {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: center;
+	}
+	.cv_button {
+		margin-bottom: 64px;
+	}
+	.footer_up {
+		display: flex;
+		flex-direction: column;
+	}
   }
+@media screen and (max-width: 700px) {
+	:root {
+		--size: 100%;
+		--aspect-ratio: 1.473809;
+		--width: var(--size);
+		--height: calc(var(--size) / var(--aspect-ratio));
+		--dollar-ratio: 4.4532374;
+		--fire-ratio: 4.1824324;
+		--light-ratio: 7.1149425;
+		--star-ratio: 6.3814432;
+	}
+	.header_content_img {
+		width: var(--width);
+		height: var(--height);
+	}
+	.cv_img {
+		width: 100%;
+	}
+	.dollar_img {
+		left: 170px;
+		width: calc(var(--width) / var(--dollar-ratio));
+	}
+	.fire_img {
+		top: 186px;
+    	left: 381px;
+		width: calc(var(--width) / var(--fire-ratio));
+	}
+	.cv_img_light {
+		width: calc(var(--width) / var(--light-ratio));
+	}
+	.cv_img_star {
+		width: calc(var(--width) / var(--star-ratio));
+	}
+	.header_adaptive {
+		display: none;
+	}
+	.find_job_input {
+		width: 400px;
+	}
+	.header_text {
+		width: auto;
+	}
+	.first_step {
+		width: auto;
+	}
+	.second_step {
+		width: auto;
+	}
+	.third_step {
+		width: auto;
+	}
+}
+@media screen and (max-width: 560px) {
+	.find_job_input {
+		width: 312px;
+	}
+	.fire_img {
+		top: 155px;
+    	left: 350px;
+	}
+}
+@media screen and (max-width: 510px) {
+	.fire_img {
+    	left: 330px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.fire_img {
+    	left: 300px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.header_content {
+		padding-top: 44px;
+	}
+	.dollar_img {
+		left: 110px;
+		top: 10px;
+	}
+	.fire_img {
+		top: 112px;
+    	left: 225px;
+	}
+	.adaptive_header {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 38px;
+		letter-spacing: 0em;
+		text-align: center;
+		margin-top: 54px;
+	}
+	.adaptive_p {
+		font-size: 14px;
+	}
+	.header_content {
+		padding-bottom: 32px;
+	}
+	.main_steps {
+		padding-top: 54px;
+    	padding-bottom: 54px;
+	}
+	.find_job {
+		padding: 54px 0;
+	}
+	.get_start {
+		text-align: center;
+	}
+	.adaptive_find_h1 {
+		font-size: 24px;
+	}
+	.adaptive_find_p {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.adaptive_find_p br {
+		display: none;
+	}
+	.cv_img_light {
+		top: 156px;
+    	left: 22px;
+	}
+	.cv_img_star {
+		top: 78px;
+    	left: 153px;
+	}
+	.cv_image {
+		margin-bottom: 108px;
+	}
+	.cv_text {
+		align-items: flex-start;
+	}
+	.footer_text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer_up {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer_links {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer_text_mrgn {
+		margin-left: 0px;
+		margin-top: 36px;
+	}
+	.footer_social_twitter {
+		margin-top: 26px;
+		margin-left: 0px;
+	}
+	.footer_social_instagram {
+		margin-top: 16px;
+		margin-left: 0px;
+	}
+	.footer_description_text {
+		margin-top: 40px;
+		text-align: left;
+	}
+	.footer_down {
+		padding-top: 40px;
+		padding-bottom: 32px;
+	}
+}
